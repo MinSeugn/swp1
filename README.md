@@ -1,2 +1,2 @@
-# 20203038	Kim Min Seung
+# 2020XXXX	Kim Min Seung
 # KOOKMIN UNIV. SW
