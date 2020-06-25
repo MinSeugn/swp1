@@ -1,2 +1,2 @@
 # 2020XXXX	Kim Min Seung
-# KOOKMIN UNIV. SW
+# KOOKMIN UNIV. Computer Science 
