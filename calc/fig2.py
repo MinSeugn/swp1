@@ -6,10 +6,13 @@ def application(environ, start_response):
     a = d.get('a', [''])[0]
     b = d.get('b', [''])[0]
     sum, product = "No Input" , "No Input"
-    if '' not in [a, b]:
+    if a.isdigit() and b.isdigit():
         a, b = int(a), int(b)
         sum = a + b
         product = a * b
+    else:
+        sum = "Only digit"
+        product = "Only digit"
     response_body = html % { 'sum' : sum, 'product' : product }
     start_response('200 OK', [
         ('Content-Type', 'text/html'),
